@@ -168,6 +168,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Client\cypress\integration\tests\example.spec.js" />
+    <Content Include="Client\cypress\plugins\index.js" />
+    <Content Include="Client\cypress\support\commands.js" />
+    <Content Include="Client\cypress\support\index.js" />
+    <Content Include="Client\runCypressTests.js" />
+    <Content Include="Client\scripts\run-cypress-tests.js" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -181,6 +187,10 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Client\cypress.json" />
+    <Content Include="Client\package.json" />
+    <Content Include="Client\scripts\npm-debug.log" />
+    <Content Include="Client\cypress\fixtures\example.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
