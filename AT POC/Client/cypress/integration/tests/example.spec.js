@@ -1,10 +1,13 @@
 /// <reference types="Cypress" />
 
-describe('BasicTest', function(){
+describe('Automated Test', function(){
 
-  it('C478 BasicTest', function() {
+  it('Test', function() {
+  Cypress.Screenshot.defaults({screenshotOnRunFailure: false})
 
+    expect(true).to.equal(true)
     expect(true).to.equal(false)
-    expect(false).to.equal(false)
   })
 })
+
+
