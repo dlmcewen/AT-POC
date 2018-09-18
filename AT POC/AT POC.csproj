@@ -174,36 +174,6 @@
     <Content Include="Client\cypress\plugins\index.js" />
     <Content Include="Client\cypress\support\commands.js" />
     <Content Include="Client\cypress\support\index.js" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\index.js" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\lib\utils.js" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\chalk\index.js" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\supports-color\index.js" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\demo.js" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\index.js" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\test\xvfb_spec.js" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\dist\cypress-testrail-reporter.js" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\dist\shared.js" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\dist\testrail.interface.js" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\dist\testrail.js" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\index.js" />
-    <Content Include="Client\node_modules\cypress\index.js" />
-    <Content Include="Client\node_modules\cypress\lib\cli.js" />
-    <Content Include="Client\node_modules\cypress\lib\cypress.js" />
-    <Content Include="Client\node_modules\cypress\lib\errors.js" />
-    <Content Include="Client\node_modules\cypress\lib\exec\open.js" />
-    <Content Include="Client\node_modules\cypress\lib\exec\run.js" />
-    <Content Include="Client\node_modules\cypress\lib\exec\spawn.js" />
-    <Content Include="Client\node_modules\cypress\lib\exec\versions.js" />
-    <Content Include="Client\node_modules\cypress\lib\exec\xvfb.js" />
-    <Content Include="Client\node_modules\cypress\lib\fs.js" />
-    <Content Include="Client\node_modules\cypress\lib\logger.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\cache.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\download.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\install.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\state.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\unzip.js" />
-    <Content Include="Client\node_modules\cypress\lib\tasks\verify.js" />
-    <Content Include="Client\node_modules\cypress\lib\util.js" />
     <Content Include="Client\runCypressTests.js" />
     <Content Include="Client\scripts\run-cypress-tests.js" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -223,27 +193,6 @@
     <Content Include="Client\package.json" />
     <Content Include="Client\scripts\npm-debug.log" />
     <Content Include="Client\cypress\fixtures\example.json" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\license" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\chalk\license" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\chalk\package.json" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\chalk\readme.md" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\supports-color\license" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\supports-color\package.json" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\node_modules\supports-color\readme.md" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\package.json" />
-    <Content Include="Client\node_modules\%40cypress\listr-verbose-renderer\readme.md" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\.eslintrc" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\.travis.yml" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\circle.yml" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\LICENSE" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\package.json" />
-    <Content Include="Client\node_modules\%40cypress\xvfb\README.md" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\LICENSE.md" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\package.json" />
-    <Content Include="Client\node_modules\cypress-testrail-reporter\README.md" />
-    <Content Include="Client\node_modules\cypress\bin\cypress" />
-    <Content Include="Client\node_modules\cypress\package.json" />
-    <Content Include="Client\node_modules\cypress\README.md" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -272,6 +221,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Client\node_modules\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -286,13 +236,6 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="Client\node_modules\cypress\types\blob-util.d.ts" />
-    <TypeScriptCompile Include="Client\node_modules\cypress\types\bluebird.d.ts" />
-    <TypeScriptCompile Include="Client\node_modules\cypress\types\chai.d.ts" />
-    <TypeScriptCompile Include="Client\node_modules\cypress\types\index.d.ts" />
-    <TypeScriptCompile Include="Client\node_modules\cypress\types\minimatch.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
