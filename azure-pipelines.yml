@@ -22,9 +22,6 @@ phases:
   # always interesting to see build-related environment variables
   # https://docs.microsoft.com/en-us/vsts/pipelines/build/variables?view=vsts
   - script: |
-      npm run print-env -- BUILD
-    displayName: 'print environment variables'
-  - script: |
       npm run cypress:verify
     displayName: 'Cypress verify'
   - script: |
