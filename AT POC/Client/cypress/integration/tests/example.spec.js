@@ -6,7 +6,6 @@ describe('Automated Test', function(){
   Cypress.Screenshot.defaults({screenshotOnRunFailure: false})
 
     expect(true).to.equal(true)
-    expect(true).to.equal(false)
   })
 })
 
