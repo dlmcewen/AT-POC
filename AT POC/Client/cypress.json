@@ -3,5 +3,5 @@
   "baseUrl": "https://google.com/",
   "video": false,
   "screenshotOnRunFailure": false,
-  "tester":  "$(TestSecret)"
+  "tester": "$(TestSecret)"
 }
