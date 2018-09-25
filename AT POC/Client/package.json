@@ -6,8 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run1": "node runCypressTests.js",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run --record --key dc23c99b-f3d5-4440-b4e7-9ee3653d7c7d",
-    "cypress:runX": "cypress run --record --key dc23c99b-f3d5-4440-b4e7-9ee3653d7c7d --reporter cypress-testrail-reporter",
+    "cypress:run": "cypress run --record --key RUN_KEY",
+    "cypress:runX": "cypress run --record --key RUN_KEY --reporter cypress-testrail-reporter",
     "cypress:verify": "cypress verify"
   },
   "license": "ISC",
