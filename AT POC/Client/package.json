@@ -7,8 +7,7 @@
     "run1": "node runCypressTests.js",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --record --key RUN_KEY",
-    "cypress:runX": "cypress run --record --key RUN_KEY --reporter cypress-testrail-reporter",
-    "cypress:verify": "cypress verify"
+    "cypress:runTR": "cypress run --record --key RUN_KEY --reporter cypress-testrail-reporter"
   },
   "license": "ISC",
   "devDependencies": {

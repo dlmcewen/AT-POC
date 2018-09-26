@@ -3,5 +3,16 @@
   "baseUrl": "https://google.com/",
   "video": false,
   "screenshotOnRunFailure": false,
-  "test": "TestToken"  
+  "test": "TestToken",
+  "reporter": "cypress-testrail-reporter",
+  "reporterOptions": {
+    "domain": "channeltivity.testrail.io",
+    "username": "CYPRESS_REPORTER_USERNAME",
+    "password": "CYPRESS_REPORTER_PASSWORD",
+    "projectId": 2,
+    "suiteId": 16,
+    "environmentFieldName": "custom_environment",
+    "environmentFieldValue": 2,
+    "recordResult": true
+  }
 }
